@@ -1,0 +1,7 @@
+{
+  "name": "bedrock-remote-filesystem",
+  "main": "./app.js",
+  "ignore": [],
+  "dependencies": {
+  }
+}
