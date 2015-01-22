@@ -1,6 +1,6 @@
 {
   "name": "bedrock-remote-filesystem",
-  "main": "./app.js",
+  "main": "./components/remote-file-selector.js",
   "ignore": [],
   "dependencies": {
   }
