@@ -120,7 +120,7 @@ describe('bedrock.services.filesystem', function() {
         method: 'POST',
         url: writeFileUrl,
         headers: {
-          'content-type' : 'application/octet-stream',
+          'content-type': 'application/octet-stream',
           'cookie': cookie
         },
         body: 'filesystem write test'
