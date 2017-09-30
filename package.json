@@ -24,7 +24,7 @@
   "homepage": "https://github.com/digitalbazaar/bedrock-remote-filesystem",
   "dependencies": {
     "async": "^1.4.2",
-    "mime": "~1.2.11",
+    "mime": "~1.4.1",
     "mkdirp": "~0.5.0"
   },
   "peerDependencies": {
