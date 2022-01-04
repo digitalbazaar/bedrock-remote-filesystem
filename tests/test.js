@@ -7,7 +7,6 @@
 var async = require('async');
 var bedrock = require('bedrock');
 var fs = require('fs');
-var mkdirp = require('mkdirp');
 var path = require('path');
 var request = require('request');
 var superagent = require('superagent');
@@ -26,7 +25,7 @@ describe('bedrock.services.filesystem', function() {
     before(function(done) {
       async.auto({
         createTestDir: function(callback) {
-          mkdirp(testDir, callback);
+          fs.mkdir(testDir, {recursive: true}, callback);
         },
         createTestFile: ['createTestDir', function(callback) {
           fs.writeFile(testFile, 'filesystem service test file', callback);
